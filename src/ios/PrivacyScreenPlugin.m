@@ -21,6 +21,7 @@ static UIImageView *imageView;
 
 - (void)onAppDidBecomeActive:(UIApplication *)application
 {
+  NSLog(@"testccc");
   if (imageView == NULL) {
     self.viewController.view.window.hidden = NO;
   } else {
